@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+#containing_content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+#containing_content .content {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    background-color: #f7f6f6;
+    padding: 50px 100px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#containing_content .content i{
+    margin-right: 10px;
+}
+#containing_content .content p{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
